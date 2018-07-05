@@ -1,0 +1,49 @@
+.product-listing {
+    &-container {
+        @include column(12);
+        margin: 0 auto;
+    }
+    &-header {
+        @include column(12);
+        @include desktop {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &-hotel-city {
+        &-info-container {
+            text-align: center;
+            margin: 40px 0;
+            @include desktop {
+                text-align: left;
+            }
+        }
+        &-name {
+            @include heading-1;
+            margin: 0;
+        }
+    }
+    &-hotel-count {
+        @include body-2;
+    }
+    &-tile-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &-dropdown-container {
+        margin: 40px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @include desktop {
+            display: block;
+        }
+        .dropdown-container {
+            margin-left: 20px;
+            margin-bottom: 10px;
+            @include desktop {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

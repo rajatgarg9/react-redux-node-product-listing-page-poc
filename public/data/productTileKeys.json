@@ -1,0 +1,36 @@
+{
+    "avgRatingSeaprator": "/",
+    "landMarkSeprator": "|",
+    "nearText": "Near",
+    "nearByMatchText": "Match :",
+    "nearByFrom": "from",
+    "percentageSymbol": "%",
+    "colonSeprator": ":",
+    "commaSeprator": ",",
+    "tripleDot": "...",
+    "rupeeSymbol": "₹",
+    "hotelText": "Hotels",
+    "loginOfferInfoKeys": {
+        "offPlusSign": "off +",
+        "uptoText": "upto",
+        "fromWallet": "from wallet! to avail...",
+        "flatText": "Flat",
+        "discountIconImage": {
+            "src": "images/discount-icon.png",
+            "imageAltText": "discount-icon"
+        },
+        "loginLink": {
+            "title": "LOGIN",
+            "href": "#"
+        }
+    },
+    "dealOfferInfoKeys": {
+        "dealText": "DEAL",
+        "getText": "Get",
+        "instantDiscountText": "instant discount up to INR",
+        "morelink": {
+            "title": "MORE",
+            "href": "#"
+        }
+    }
+}

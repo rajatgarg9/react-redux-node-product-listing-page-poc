@@ -1,0 +1,570 @@
+[
+    {
+        "hotelPlace": "North Goa",
+        "categoryId": "2",
+        "appliedSortByFilter": " Price low to high",
+        "filterAndSortByData": [
+            {
+                "type": "filter",
+                "name": "rating",
+                "dropDownId": "76",
+                "DropdownBox": {
+                    "key": "Filter By",
+                    "colonSymbol": ":",
+                    "value": "Star Rating"
+                },
+                "dropDownList": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "activeTab": ""
+            },
+            {
+                "type": "sort",
+                "name": "price",
+                "dropDownId": "25",
+                "DropdownBox": {
+                    "key": "Sort by",
+                    "colonSymbol": ":"
+                },
+                "dropDownList": [
+                    "Price low to high",
+                    "Price high to low"
+                ],
+                "activeTab": "0"
+            }
+        ],
+        "hotels": [
+            {
+                "title": "Holiday Beach Resort By Adore",
+                "starRating": "1",
+                "price": {
+                    "offerPrice": "4499",
+                    "listPrice": "4875",
+                    "unit": "Per Room/Night",
+                    "discountPercentage": "20"
+                },
+                "ProductImages": {
+                    "mobile": {
+                        "src": "images/hotel-image-mobile.jpg"
+                    },
+                    "desktop": {
+                        "src": "images/hotel-image-desktop.jpg"
+                    },
+                    "imageAltText": "product-tile"
+                },
+                "freeService": [
+                    "Free Cancellation",
+                    "Free Wifi"
+                ],
+                "ratingInfo": {
+                    "avg": "2.9",
+                    "total": "5",
+                    "overallExp": "Very Good"
+                },
+                "landMarkInfo": {
+                    "title": "Mansarovar Metro station",
+                    "nearByInfo": {
+                        "title": "Terminal 3, IGI",
+                        "distance": "2 Km"
+                    }
+                },
+                "nearByInfo": {
+                    "matchPercentage": "93",
+                    "placesInfo": [
+                        {
+                            "title": "Candolim",
+                            "distance": "2.5 KM"
+                        },
+                        {
+                            "title": "Silom Beach",
+                            "distance": "3.2 KM"
+                        }
+                    ]
+                },
+                "loginInOfferInfo": {
+                    "offAmount": "2,000",
+                    "upToAmount": "500"
+                },
+                "loginInlink": "#",
+                "tagInfo": {
+                    "specialTag": "PROMOTED",
+                    "generalTag": [
+                        "family traveller",
+                        "solo traveller"
+                    ]
+                },
+                "generalText": "#7 in 550 Hotels by business travellers"
+            },
+            {
+                "title": "Holiday Beach Resort By Adore",
+                "starRating": "1",
+                "price": {
+                    "offerPrice": "5499",
+                    "listPrice": "5875",
+                    "unit": "Per Room/Night",
+                    "discountPercentage": "20"
+                },
+                "ProductImages": {
+                    "mobile": {
+                        "src": "images/hotel-image-mobile-4.jpg"
+                    },
+                    "desktop": {
+                        "src": "images/hotel-image-desktop-4.jpg"
+                    },
+                    "imageAltText": "product-tile"
+                },
+                "freeService": [
+                    "Free Cancellation",
+                    "Free Wifi"
+                ],
+                "ratingInfo": {
+                    "avg": "3.0",
+                    "total": "5",
+                    "overallExp": "Very Good"
+                },
+                "landMarkInfo": {
+                    "title": "Mansarovar Metro station",
+                    "nearByInfo": {
+                        "title": "Terminal 3, IGI",
+                        "distance": "2 Km"
+                    }
+                },
+                "nearByInfo": {
+                    "matchPercentage": "93",
+                    "placesInfo": [
+                        {
+                            "title": "Candolim",
+                            "distance": "2.5 KM"
+                        },
+                        {
+                            "title": "Silom Beach",
+                            "distance": "3.2 KM"
+                        }
+                    ]
+                },
+                "dealOfferInfo": {
+                    "discountPercentahe": "50",
+                    "upToAmount": "1750"
+                },
+                "loginInlink": "#",
+                "tagInfo": {
+                    "specialTag": "PROMOTED",
+                    "generalTag": [
+                        "family traveller",
+                        "solo traveller"
+                    ]
+                },
+                "generalText": "#7 in 550 Hotels by business travellers"
+            },
+            {
+                "title": "Holiday Beach Resort By Adore",
+                "starRating": "2",
+                "price": {
+                    "offerPrice": "6499",
+                    "listPrice": "6875",
+                    "unit": "Per Room/Night",
+                    "discountPercentage": "20"
+                },
+                "ProductImages": {
+                    "mobile": {
+                        "src": "images/hotel-image-mobile-2.jpg"
+                    },
+                    "desktop": {
+                        "src": "images/hotel-image-desktop-2.jpg"
+                    },
+                    "imageAltText": "product-tile"
+                },
+                "freeService": [
+                    "Free Cancellation",
+                    "Free Wifi"
+                ],
+                "ratingInfo": {
+                    "avg": "2.9",
+                    "total": "5",
+                    "overallExp": "Very Good"
+                },
+                "landMarkInfo": {
+                    "title": "Mansarovar Metro station",
+                    "nearByInfo": {
+                        "title": "Terminal 3, IGI",
+                        "distance": "2 Km"
+                    }
+                },
+                "nearByInfo": {
+                    "matchPercentage": "93",
+                    "placesInfo": [
+                        {
+                            "title": "Candolim",
+                            "distance": "2.5 KM"
+                        },
+                        {
+                            "title": "Silom Beach",
+                            "distance": "3.2 KM"
+                        }
+                    ]
+                },
+                "loginInOfferInfo": {
+                    "offAmount": "2,000",
+                    "upToAmount": "500"
+                },
+                "loginInlink": "#",
+                "tagInfo": {
+                    "specialTag": "PROMOTED",
+                    "generalTag": [
+                        "family traveller",
+                        "solo traveller"
+                    ]
+                },
+                "generalText": "#7 in 550 Hotels by business travellers"
+            },
+            {
+                "title": "Holiday Beach Resort By Adore",
+                "starRating": "2",
+                "price": {
+                    "offerPrice": "6356",
+                    "listPrice": "6344",
+                    "unit": "Per Room/Night",
+                    "discountPercentage": "20"
+                },
+                "ProductImages": {
+                    "mobile": {
+                        "src": "images/hotel-image-mobile-3.jpg"
+                    },
+                    "desktop": {
+                        "src": "images/hotel-image-desktop-3.jpg"
+                    },
+                    "imageAltText": "product-tile"
+                },
+                "freeService": [
+                    "Free Cancellation",
+                    "Free Wifi"
+                ],
+                "ratingInfo": {
+                    "avg": "3.0",
+                    "total": "5",
+                    "overallExp": "Very Good"
+                },
+                "landMarkInfo": {
+                    "title": "Mansarovar Metro station",
+                    "nearByInfo": {
+                        "title": "Terminal 3, IGI",
+                        "distance": "2 Km"
+                    }
+                },
+                "nearByInfo": {
+                    "matchPercentage": "93",
+                    "placesInfo": [
+                        {
+                            "title": "Candolim",
+                            "distance": "2.5 KM"
+                        },
+                        {
+                            "title": "Silom Beach",
+                            "distance": "3.2 KM"
+                        }
+                    ]
+                },
+                "dealOfferInfo": {
+                    "discountPercentahe": "50",
+                    "upToAmount": "1750"
+                },
+                "loginInlink": "#",
+                "tagInfo": {
+                    "specialTag": "PROMOTED",
+                    "generalTag": [
+                        "family traveller",
+                        "solo traveller"
+                    ]
+                },
+                "generalText": "#7 in 550 Hotels by business travellers"
+            }
+        ]
+    },
+    {
+        "hotelPlace": "South Goa",
+        "categoryId": "4",
+        "filterAndSortByData": [
+            {
+                "type": "filter",
+                "name": "rating",
+                "dropDownId": "34",
+                "DropdownBox": {
+                    "key": "Filter By",
+                    "colonSymbol": ":",
+                    "value": "Star Rating"
+                },
+                "dropDownList": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "type": "sort",
+                "name": "price",
+                "dropDownId": "24",
+                "DropdownBox": {
+                    "key": "Sort by",
+                    "colonSymbol": ":"
+                },
+                "dropDownList": [
+                    "Price high to low",
+                    "Price low to high"
+                ],
+                "activeTab": "0"
+            }
+        ],
+        "hotels": [
+            {
+                "title": "Holiday Beach Resort By Adore",
+                "starRating": "1",
+                "price": {
+                    "offerPrice": "4499",
+                    "listPrice": "4875",
+                    "unit": "Per Room/Night",
+                    "discountPercentage": "20"
+                },
+                "ProductImages": {
+                    "mobile": {
+                        "src": "images/hotel-image-mobile.jpg"
+                    },
+                    "desktop": {
+                        "src": "images/hotel-image-desktop.jpg"
+                    },
+                    "imageAltText": "product-tile"
+                },
+                "freeService": [
+                    "Free Cancellation",
+                    "Free Wifi"
+                ],
+                "ratingInfo": {
+                    "avg": "2.9",
+                    "total": "5",
+                    "overallExp": "Very Good"
+                },
+                "landMarkInfo": {
+                    "title": "Mansarovar Metro station",
+                    "nearByInfo": {
+                        "title": "Terminal 3, IGI",
+                        "distance": "2 Km"
+                    }
+                },
+                "nearByInfo": {
+                    "matchPercentage": "93",
+                    "placesInfo": [
+                        {
+                            "title": "Candolim",
+                            "distance": "2.5 KM"
+                        },
+                        {
+                            "title": "Silom Beach",
+                            "distance": "3.2 KM"
+                        }
+                    ]
+                },
+                "loginInOfferInfo": {
+                    "offAmount": "2,000",
+                    "upToAmount": "500"
+                },
+                "loginInlink": "#",
+                "tagInfo": {
+                    "specialTag": "PROMOTED",
+                    "generalTag": [
+                        "family traveller",
+                        "solo traveller"
+                    ]
+                },
+                "generalText": "#7 in 550 Hotels by business travellers"
+            },
+            {
+                "title": "Holiday Beach Resort By Adore",
+                "starRating": "1",
+                "price": {
+                    "offerPrice": "5499",
+                    "listPrice": "5875",
+                    "unit": "Per Room/Night",
+                    "discountPercentage": "20"
+                },
+                "ProductImages": {
+                    "mobile": {
+                        "src": "images/hotel-image-mobile-4.jpg"
+                    },
+                    "desktop": {
+                        "src": "images/hotel-image-desktop-4.jpg"
+                    },
+                    "imageAltText": "product-tile"
+                },
+                "freeService": [
+                    "Free Cancellation",
+                    "Free Wifi"
+                ],
+                "ratingInfo": {
+                    "avg": "3.0",
+                    "total": "5",
+                    "overallExp": "Very Good"
+                },
+                "landMarkInfo": {
+                    "title": "Mansarovar Metro station",
+                    "nearByInfo": {
+                        "title": "Terminal 3, IGI",
+                        "distance": "2 Km"
+                    }
+                },
+                "nearByInfo": {
+                    "matchPercentage": "93",
+                    "placesInfo": [
+                        {
+                            "title": "Candolim",
+                            "distance": "2.5 KM"
+                        },
+                        {
+                            "title": "Silom Beach",
+                            "distance": "3.2 KM"
+                        }
+                    ]
+                },
+                "dealOfferInfo": {
+                    "discountPercentahe": "50",
+                    "upToAmount": "1750"
+                },
+                "loginInlink": "#",
+                "tagInfo": {
+                    "specialTag": "PROMOTED",
+                    "generalTag": [
+                        "family traveller",
+                        "solo traveller"
+                    ]
+                },
+                "generalText": "#7 in 550 Hotels by business travellers"
+            },
+            {
+                "title": "Holiday Beach Resort By Adore",
+                "starRating": "2",
+                "price": {
+                    "offerPrice": "6499",
+                    "listPrice": "6875",
+                    "unit": "Per Room/Night",
+                    "discountPercentage": "20"
+                },
+                "ProductImages": {
+                    "mobile": {
+                        "src": "images/hotel-image-mobile-2.jpg"
+                    },
+                    "desktop": {
+                        "src": "images/hotel-image-desktop-2.jpg"
+                    },
+                    "imageAltText": "product-tile"
+                },
+                "freeService": [
+                    "Free Cancellation",
+                    "Free Wifi"
+                ],
+                "ratingInfo": {
+                    "avg": "2.9",
+                    "total": "5",
+                    "overallExp": "Very Good"
+                },
+                "landMarkInfo": {
+                    "title": "Mansarovar Metro station",
+                    "nearByInfo": {
+                        "title": "Terminal 3, IGI",
+                        "distance": "2 Km"
+                    }
+                },
+                "nearByInfo": {
+                    "matchPercentage": "93",
+                    "placesInfo": [
+                        {
+                            "title": "Candolim",
+                            "distance": "2.5 KM"
+                        },
+                        {
+                            "title": "Silom Beach",
+                            "distance": "3.2 KM"
+                        }
+                    ]
+                },
+                "loginInOfferInfo": {
+                    "offAmount": "2,000",
+                    "upToAmount": "500"
+                },
+                "loginInlink": "#",
+                "tagInfo": {
+                    "specialTag": "PROMOTED",
+                    "generalTag": [
+                        "family traveller",
+                        "solo traveller"
+                    ]
+                },
+                "generalText": "#7 in 550 Hotels by business travellers"
+            },
+            {
+                "title": "Holiday Beach Resort By Adore",
+                "starRating": "2",
+                "price": {
+                    "offerPrice": "6356",
+                    "listPrice": "6344",
+                    "unit": "Per Room/Night",
+                    "discountPercentage": "20"
+                },
+                "ProductImages": {
+                    "mobile": {
+                        "src": "images/hotel-image-mobile-3.jpg"
+                    },
+                    "desktop": {
+                        "src": "images/hotel-image-desktop-3.jpg"
+                    },
+                    "imageAltText": "product-tile"
+                },
+                "freeService": [
+                    "Free Cancellation",
+                    "Free Wifi"
+                ],
+                "ratingInfo": {
+                    "avg": "3.0",
+                    "total": "5",
+                    "overallExp": "Very Good"
+                },
+                "landMarkInfo": {
+                    "title": "Mansarovar Metro station",
+                    "nearByInfo": {
+                        "title": "Terminal 3, IGI",
+                        "distance": "2 Km"
+                    }
+                },
+                "nearByInfo": {
+                    "matchPercentage": "93",
+                    "placesInfo": [
+                        {
+                            "title": "Candolim",
+                            "distance": "2.5 KM"
+                        },
+                        {
+                            "title": "Silom Beach",
+                            "distance": "3.2 KM"
+                        }
+                    ]
+                },
+                "dealOfferInfo": {
+                    "discountPercentahe": "50",
+                    "upToAmount": "1750"
+                },
+                "loginInlink": "#",
+                "tagInfo": {
+                    "specialTag": "PROMOTED",
+                    "generalTag": [
+                        "family traveller",
+                        "solo traveller"
+                    ]
+                },
+                "generalText": "#7 in 550 Hotels by business travellers"
+            }
+        ]
+    }
+]

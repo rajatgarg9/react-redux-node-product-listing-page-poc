@@ -1,0 +1,108 @@
+@mixin heading-1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    @include desktop{
+        font-size: 24px;
+    }
+}
+
+@mixin heading-2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    @include desktop{
+        font-size: 18px;
+    }
+}
+@mixin heading-3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+@mixin heading-4{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+@mixin body-1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    @include desktop{
+        font-size: 20px;
+    }
+}
+@mixin body-2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    @include desktop{
+        font-size: 18px;
+    }
+}
+@mixin body-3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+@mixin body-4{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+@mixin body-5{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+@mixin body-6{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*
+ * Wide screen Desktop (PC's)
+ */
+
+@mixin desktop-xl {
+    /* Medium devices (desktops, 1366px and up) */
+    @media only screen and (min-width: 1366px) {
+        @content;
+    }
+}
+
+/*
+ * Desktop (PC's)
+ */
+
+@mixin desktop {
+    /* Medium devices (desktops, 1024px and up) */
+    @media only screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+/*
+ * Tablet
+ */
+
+@mixin tablet {
+    /* Small devices (tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+/*
+ * Mobile
+ */
+
+@mixin mobile {
+    /* < 768px */
+    @media only screen and (max-width: 767px) {
+        @content;
+    }
+}

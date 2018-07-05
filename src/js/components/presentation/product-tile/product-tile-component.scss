@@ -1,0 +1,296 @@
+.product-tile {
+    &-container {
+        @include column(12);
+        @include desktop {
+            @include column(6);
+        }
+        margin-bottom: 20px;
+        &.product-tile-deal-variant {
+            .product-tile {
+                &-bottom {
+                    &-product-name {
+                        color: $blue-3;
+                    }
+                    &-price-info {
+                        margin-bottom: 16px;
+                    }
+                }
+            }
+        }
+    }
+    &-top {
+        &-container {
+            position: relative;
+            line-height: 0;
+        }
+        &-promoted-tag-container {
+            position: absolute;
+            top: 0;
+            right: -1px;
+        }
+        &-promoted-tag {
+            @include body-5;
+            position: relative;
+            background-color: $blue-3;
+            color: $white;
+            padding: 4px 10px;
+            &::before {
+                content: "";
+                width: 0;
+                height: 0;
+                border-top: 11px solid $blue-3;
+                border-right: 10px solid transparent;
+                border-bottom: 11px solid $blue-3;
+                position: absolute;
+                left: -10px;
+                top: 0;
+                transform: rotate(180deg);
+            }
+        }
+        &-rating-review-container {
+            @include body-5;
+            position: absolute;
+            top: 32px;
+            right: 24px;
+            color: $white;
+            background-color: $orange;
+            padding: 6px;
+            border-radius: 4px;
+            text-align: center;
+        }
+        &-rating-container {
+            margin-bottom: 16px;
+        }
+        &-avg-rating {
+            @include heading-2;
+            letter-spacing: 1px;
+        }
+        &-general-tag-container {
+            @include body-5;
+            position: absolute;
+            bottom: 46px;
+            left: 10px;
+            @include desktop {
+                left: 20px;
+                bottom: 20px;
+            }
+        }
+        &-general-tag {
+            background: $grey-1;
+            border-radius: 12px;
+            margin-right: 8px;
+            padding: 4px 10px;
+        }
+        &-general-image-text {
+            @include body-5;
+            position: absolute;
+            right: 12px;
+            bottom: 20px;
+            color: $white;
+            margin-bottom: 0;
+            @include desktop {
+                right: 20px;
+            }
+        }
+    }
+    &-bottom {
+        &-container {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: $white;
+            padding: 20px 0 10px;
+        }
+        &-general-details-container {
+            @include column(12);
+            @include desktop {
+                @include column(8);
+            }
+        }
+        &-price-details-container {
+            @include column(12);
+            @include desktop {
+                @include column(4);
+            }
+        }
+        &-product-name {
+            @include heading-2;
+            margin: 0 12px 8px 0;
+        }
+        &-product-name,
+        &-product-rating {
+            display: inline-block;
+        }
+        &-distance-info,
+        &-login-offer,
+        &-near-info,
+        &-deal-offer {
+            @include body-5;
+        }
+        &-near-info {
+            margin-bottom: 24px;
+            @include desktop {
+                margin-bottom: 40px;
+            }
+        }
+        &-landmark-seprator,
+        &-details-landmark {
+            color: $grey-2;
+        }
+        &-distance-info {
+            color: $grey-2;
+            margin-bottom: 20px;
+        }
+        &-distance-match {
+            @include heading-4;
+            color: $bule-2;
+        }
+        &-distance-km {
+            @include heading-4;
+            color: $black;
+        }
+        &-deal-keyword {
+            @include heading-4;
+            position: relative;
+            padding: 5px;
+            margin-right: 14px;
+            display: inline-flex;
+            color: $white;
+            background-color: $dark-green;
+            &::after {
+                content: "";
+                width: 0;
+                height: 0;
+                border-top: 12px solid $dark-green;
+                border-left: 10px solid transparent;
+                border-bottom: 11px solid $dark-green;
+                position: absolute;
+                right: -10px;
+                top: 0;
+                transform: rotate(180deg);
+            }
+        }
+        &-deal-details {
+            @include body-6;
+            color: $dark-green;
+        }
+        &-deal-link {
+            @include body-4;
+            color: $blue-3;
+            margin-left: 6px;
+            text-decoration: none;
+        }
+        &-price-info {
+            margin-bottom: 24px;
+            @include desktop {
+                margin-bottom: 56px;
+            }
+        }
+        &-login-offer {
+            padding: 8px;
+            background-color: $blue-1;
+            border-radius: 0 20px 20px 0;
+            margin-left: -16px;
+        }
+        &-flat-amount-off,
+        &-flat-amount-upto {
+            @include heading-4;
+            color: $bule-2;
+        }
+        &-discount-icon {
+            width: 20px;
+            margin: 0 8px 0 20px;
+            vertical-align: middle;
+        }
+        &-login {
+            @include heading-3;
+            color: $blue-3;
+            text-decoration: none;
+        }
+        &-price-details-container {
+            text-align: center;
+            margin-top: 20px;
+            @include desktop {
+                text-align: right;
+                margin-top: 0;
+            }
+        }
+        &-actual-price {
+            @include body-5;
+            color: $grey-2;
+            text-decoration: line-through;
+        }
+        &-actual-price-container {
+            @include body-5;
+        }
+        &-actual-price {
+            color: $grey-2;
+            text-decoration: line-through;
+            margin-right: 16px;
+        }
+        &-off-percentage {
+            padding: 4px;
+            background-color: $red;
+            position: relative;
+            color: $white;
+            &::before {
+                content: "\00B7";
+                font-size: 32px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -7px;
+                z-index: $z-index-1;
+            }
+            &::after {
+                content: "";
+                width: 0;
+                height: 0;
+                border-top: 12px solid transparent;
+                border-right: 10px solid $red;
+                border-bottom: 10px solid transparent;
+                position: absolute;
+                left: -10px;
+                top: 0;
+            }
+        }
+        &-offer-price {
+            @include heading-1;
+            color: $red;
+            margin-bottom: 0;
+            margin-top: 12px;
+        }
+        &-offer-price-unit {
+            @include body-5;
+            color: $grey-2;
+            margin-top: 0;
+        }
+        &-free-service {
+            &-container {
+                @include body-5;
+                color: $blue-4;
+            }
+            &-item {
+                position: relative;
+                margin-right: 28px;
+                &::after {
+                    content: "\00B7";
+                    font-size: 32px;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: -20px;
+                    z-index: $z-index-1;
+                }
+                &:last-child {
+                    margin-right: 0;
+                    &::after {
+                        content: ""
+                    }
+                }
+            }
+        }
+    }
+    &-image {
+        width: 100%;
+    }
+}
