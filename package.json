@@ -1,5 +1,5 @@
 {
-  "name": "ota-app",
+  "name": "react-redux-node-product-listing-page-poc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
