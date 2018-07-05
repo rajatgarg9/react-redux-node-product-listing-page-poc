@@ -6,5 +6,5 @@ This app is made by React and Redux in frontend side and for backend I am using 
 ### Steps to run the applications
 * Install dependencies using command **npm install**
 * Start data server using command **node server** in terminal
-* To start app server using command **npm start** in another terminal
+* To start app server use command **npm start** in another terminal
 * Make sure both server are running , then open [http://localhost:3000](http://localhost:3000) to view app in the browser.
