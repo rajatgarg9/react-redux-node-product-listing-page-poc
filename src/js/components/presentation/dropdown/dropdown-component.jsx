@@ -10,6 +10,7 @@ class DropdownComponent extends Component {
         const { activeTab, dropDownList, name } = props.dropDownData;
         this.activeTab = activeTab ? Number(activeTab) : "";
         this.selectedValue = (dropDownList && dropDownList[this.activeTab]) || "";
+        this.dropDownParentClass = "dropdown-list-item";
 
         this.state = {
             dropDownExpand: false
@@ -17,7 +18,7 @@ class DropdownComponent extends Component {
 
         this.dropDownStateSetter = this.dropDownStateSetter.bind(this);
 
-        // initialize dropDownItemCreator to make dropdown 
+        // initialize dropDownItemCreator function to make dropdown 
         if (name === "rating") {
             this.dropDownItemCreator = this.starItemCreator;
         }
@@ -27,9 +28,34 @@ class DropdownComponent extends Component {
     }
 
 
-    dropDownOutSideHandler = (event) => {
-        document.removeEventListener("click", this.dropDownOutSideHandler);
-        this.dropDownStateSetter();
+    /**
+        * dropDownOutSideClickHandler -- on document click remove document event and if click outside 
+        * the dropdown then close dropdown
+        * @param {undefined} item 
+        * @return {undefined} 
+       */
+    dropDownOutSideClickHandler = (event) => {
+        let _currentNode = event.target,
+            _outsideDropdownFlag = false;
+
+        document.removeEventListener("click", this.dropDownOutSideClickHandler);
+
+        // check if click is indide dropdown or not
+        while (true) {
+            if (!_currentNode) {
+                break;
+            }
+            if (classNameValidator(_currentNode, this.dropDownParentClass)) {
+                _outsideDropdownFlag = true;
+                break;
+            }
+            _currentNode = _currentNode.parentNode;
+        }
+
+        //close dropdown if clicked outside
+        if (!_outsideDropdownFlag) {
+            this.dropDownStateSetter();
+        }
     }
 
     /**
@@ -43,24 +69,22 @@ class DropdownComponent extends Component {
         });
     }
     /**
-        * dropDownClickHandler -- on Click chage state of dropdown clode to open
+        * dropDownClickHandler -- on Click on dropdown change state of dropdown 
         * update redux store with new filter or sort By and rerender componet to update UI
         * @param {Object} event -- click event Info
         *  @return {undefined}
      */
     dropDownClickHandler = (event) => {
-        const _targetClasses = "dropdown-list-item";
-
         if (!this.state.dropDownExpand) {
-            document.addEventListener("click", this.dropDownOutSideHandler);
-            this.dropDownStateSetter();
+            document.addEventListener("click", this.dropDownOutSideClickHandler);
         }
-        if (classNameValidator(event.target, _targetClasses)) {
+        this.dropDownStateSetter();
+        if (classNameValidator(event.target, this.dropDownParentClass)) {
             this.dropDownItemAction(event.target, this.props);
-        } else if (classNameValidator(event.target.parentNode, _targetClasses)) {
+        } else if (classNameValidator(event.target.parentNode, this.dropDownParentClass)) {
             this.dropDownItemAction(event.target.parentNode, this.props);
         }
-        else if (classNameValidator(event.target.parentNode.parentNode, _targetClasses)) {
+        else if (classNameValidator(event.target.parentNode.parentNode, this.dropDownParentClass)) {
             this.dropDownItemAction(event.target.parentNode.parentNode, this.props);
         }
     }
